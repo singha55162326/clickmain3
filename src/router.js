@@ -321,11 +321,7 @@ const router = new Router({
                     component: () =>
                         import ('./views/ui-elements/colors/Colors.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Colors', active: true }
-                        ],
-                        pageTitle: 'Colors',
+                       
                         rule: 'editor'
                     }
                 },
@@ -348,12 +344,7 @@ const router = new Router({
                     component: () =>
                         import ('./views/ui-elements/card/CardStatistics.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Card' },
-                            { title: 'Statistics Cards', active: true }
-                        ],
-                        pageTitle: 'Statistics Card',
+                      
                         rule: 'editor'
                     }
                 },
@@ -378,12 +369,7 @@ const router = new Router({
                     component: () =>
                         import ('./views/ui-elements/card/CardActions.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Card' },
-                            { title: 'Card Actions', active: true }
-                        ],
-                        pageTitle: 'Card Actions',
+                     
                         rule: 'editor'
                     }
                 },
@@ -393,12 +379,7 @@ const router = new Router({
                     component: () =>
                         import ('./views/ui-elements/card/CardColors.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Card' },
-                            { title: 'Card Colors', active: true }
-                        ],
-                        pageTitle: 'Card Colors',
+                       
                         rule: 'editor'
                     }
                 },
@@ -455,12 +436,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/vuesax/avatar/Avatar.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Components' },
-                            { title: 'Avatar', active: true }
-                        ],
-                        pageTitle: 'Avatar',
+                       
                         rule: 'editor'
                     }
                 },
@@ -470,12 +446,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/vuesax/breadcrumb/Breadcrumb.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Components' },
-                            { title: 'Breadcrumb', active: true }
-                        ],
-                        pageTitle: 'Breadcrumb',
+                       
                         rule: 'editor'
                     }
                 },
@@ -547,12 +518,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/vuesax/divider/Divider.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Components' },
-                            { title: 'Divider', active: true }
-                        ],
-                        pageTitle: 'Divider',
+                      
                         rule: 'editor'
                     }
                 },
@@ -562,12 +528,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/vuesax/dropdown/Dropdown.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Components' },
-                            { title: 'Dropdown', active: true }
-                        ],
-                        pageTitle: 'Dropdown',
+                       
                         rule: 'editor'
                     }
                 },
@@ -617,12 +578,17 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/vuesax/notifications/Notifications.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Components' },
-                            { title: 'Notifications', active: true }
-                        ],
-                        pageTitle: 'Notifications',
+                       
+                        rule: 'editor'
+                    }
+                },
+                {
+                    path: '/components/Approve',
+                    name: 'component-notifications',
+                    component: () =>
+                        import ('@/views/components/vuesax/notifications/Approve.vue'),
+                    meta: {
+                       
                         rule: 'editor'
                     }
                 },
@@ -1237,12 +1203,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/extra-components/access-control/AccessControl.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Extensions' },
-                            { title: 'Access Control', active: true }
-                        ],
-                        pageTitle: 'Access Control',
+                      
                         rule: 'editor'
                     }
                 },
@@ -1358,13 +1319,7 @@ const router = new Router({
                     component: () =>
                         import ('@/views/components/extra-components/import-export/Export.vue'),
                     meta: {
-                        breadcrumb: [
-                            { title: 'Home', url: '/' },
-                            { title: 'Extensions' },
-                            { title: 'Import/Export' },
-                            { title: 'Export', active: true }
-                        ],
-                        pageTitle: 'Export Excel',
+                       
                         rule: 'editor'
                     }
                 },

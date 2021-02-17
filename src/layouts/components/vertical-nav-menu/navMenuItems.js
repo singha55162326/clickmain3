@@ -268,6 +268,12 @@ export default [
                         i18n: 'Project'
                     },
                     {
+                         url: '/components/dropdown',
+                           name: 'DropDown',
+                           slug: 'component-drop-down',
+                           i18n: 'Brief form'
+                         },
+                    {
                         url: '/components/tabs',
                         name: 'Tabs',
                         slug: 'component-tabs',

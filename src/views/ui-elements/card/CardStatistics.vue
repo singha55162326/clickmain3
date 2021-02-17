@@ -6,7 +6,7 @@
       <vs-table  search :data="users">
            <template slot="header">
           <vs-button color="#EEFF41" style="margin-left:800px  "  @click="$router.push('/components/notifications')">waiting</vs-button> &nbsp;&nbsp;
-           <vs-button style="margin-left:800x" @click="activePrompt=true">Approve</vs-button>
+           <vs-button style="margin-left:800x"  @click="$router.push('/components/Approve')" >Approve</vs-button>
         </template>
     <template slot="thead">
       <vs-th sort-key="email">File name</vs-th>

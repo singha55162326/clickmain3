@@ -1,5 +1,5 @@
 <template>
-  <div class="the-navbar__user-meta flex items-center " style="margin-left:1050px"   v-if="activeUserInfo.displayName">
+  <div class="the-navbar__user-meta flex items-center " style="margin-left:1150px"   v-if="activeUserInfo.displayName">
 
     <div class="text-right leading-tight hidden sm:block">
       <p  class="font-semibold">SALE</p>
